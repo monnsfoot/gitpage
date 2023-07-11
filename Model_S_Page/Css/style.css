@@ -1,0 +1,374 @@
+::-webkit-scrollbar {
+   display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.seccion_1{
+   background-image: url(../Img/FondoPrincipal.jpg);
+   background-repeat: no-repeat !important;
+   background-size: 100% !important;
+}
+
+.letras-tesla{
+   width: 40% !important;
+}  
+
+/* .First_img img {
+   width: 100%;
+   height: 730px;
+   z-index: -1;
+   position: absolute;
+} */
+
+.seccion_2 {
+   background-color: #000;
+}
+
+.ModelS {
+   padding-top: 150px;
+}
+
+.ModelS h1, h5 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.ModelS h1 {
+   font-weight: 2.8em !important;
+   font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+   font-weight: normal;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.informacion_previa p {
+   color: #fff;
+   font-weight: 200;
+   font-size: 350px;
+   font-family: 'Open Sans', sans-serif;
+   width: 100%;
+}
+
+.informacion_previa {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 320px !important;
+   width: 750px;
+   margin-left: 15%;
+}
+
+.subinformacion_previa p {
+   width: 100%;
+   margin-top: -45px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.subinformacion_previa {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 750px;
+   margin-left: 16%;
+   text-align: justify;
+   padding-right: 5%;
+}
+
+.ordenar {
+   background-color: transparent;
+   border-radius: 440px;
+   border: solid #fff 3px;
+   width: 170px;
+   height: 40px;
+   color: #fff 40px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.ordenar:hover button {
+   background-color: #fff;
+   color: #000;
+}
+
+.ordenar {
+   justify-content: center;
+   align-items: center;
+   margin-left: 70%;
+   margin-top: -80px;
+}
+
+.subinformacion_previa {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.subinformacion_previa p {
+   color: #fff;
+   font-weight: 600;
+   font-size: 15px !important;
+}
+
+.Interior {
+   color: #fff;
+   font-size: 30px;
+   margin-bottom: 3%;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.Interior {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Pantalla {
+   min-width: 100%;
+   height: 600px;
+   position: relative;
+   z-index: 1;
+}
+
+.carousel-inner {
+   margin-left: 5%;
+}
+
+.Carrousel {
+   width: 92%;
+   height: 600px;
+   margin-top: 2%;
+}
+
+.Carrousel img {
+   width: 100%;
+   height: 500px;
+}
+
+.Carrousel {
+   display: flex;
+   align-items: start;
+   justify-content: start;
+}
+
+.carousel-indicators button {
+   width: 8px !important;
+   height: 8px !important;
+}
+
+.carousel-indicators button {
+   border-radius: 50%!important;
+}
+
+.carousel-indicators {
+   transform: translateY(-46px);
+   padding-right: 5px;
+}
+
+.carousel-indicators {
+   display: flex;
+   justify-content: left;
+   align-items: start;
+}
+
+.carousel-indicators {
+   margin-left: 15%;
+}
+
+.carousel-caption {
+   transform: translateY(150px) !important;
+   width: 55%;
+}
+
+.carousel-caption h5, p {
+   display: flex;
+   justify-content: start;
+   text-align: left;
+   font-family: 'Open Sans', sans-serif;
+   width: 100%;
+}
+
+.carousel-caption {
+   margin-left: 10%;
+}
+
+.carousel-caption {
+   font-size: 15px;
+   margin-left: 5%;
+}
+
+.Focus {
+   transform: translateY(160px) !important;
+}
+
+.carousel-control-prev-icon {
+   width: 30px;
+   height: 30px;
+   border: solid #fff 3px;
+}
+
+.carousel-control-next-icon {
+   width: 30px;
+   height: 30px;
+   border: solid #fff 3px;
+}
+
+.info1 {
+   width: 70%;
+   height: 300px;
+}
+
+.container {
+   width: 100%;
+   color: #ffffff;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 7%;
+}
+
+.Textos {
+   width: 50%;
+   margin-left: 7%;
+   margin-top: 10%;
+   font-size: 15px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.Textos h6 {
+   font-size: 15px;
+}
+
+.segundo, .tercero, .cuarto {
+   margin-top: -7%;
+}
+
+.segundo img {
+   margin-left: 14.5%;
+}
+
+.cuarto img {
+   margin-left: 14.5%;
+}
+.seccion_3 {
+   background-color: #fafafa;
+}
+
+.seccion_3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Electric {
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+   font-size: 26px;
+}
+
+.Long {
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+   font-size: 15px;
+   color: #3d3d3d;
+}
+
+.Motor1 {
+   width: 70%;
+   height: 400px;
+   margin-left: 15%;
+   margin-right: 15% ;
+}
+
+.Motor1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.motores {
+   display: flex;
+   justify-content: center;
+}
+
+.motores button{
+   height: 2%;
+   width: 100%;
+}
+.Primer_motor {
+   width: 100%;
+   border-top: 2px solid #000 ;
+   margin-right: 2%;
+   margin-top: 3%;
+}
+
+.Primer_motor,  h2, h3 {
+   font-size: 20px;
+   font-weight: 600;
+   text-align: left;
+   padding-left: 2%;
+   padding-right: 2%;
+   margin-left: 5%;
+}
+.Primer_motor p{
+   font-size: 13px;
+   font-weight: 200;
+   text-align: left;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
+.Segundo_motor {
+   width: 100%;
+   border-top: 2px solid #000 ;
+   padding-top: 1%;
+   margin-top: 3%;
+   margin-right: 10%;
+
+}
+
+.Segundo_motor,  h2, h3 {
+   font-size: 20px;
+   font-weight: 600;
+   text-align: left;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+.Segundo_motor p{
+   font-size: 13px;
+   font-weight: 200;
+   text-align: left;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
+.Container-motores {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Container-motores_2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Container-motores h3 {
+   width: 50%;
+   padding-right: 7%;
+}
+
+.Container-motores_2 h3 {
+   width: 100%;
+   padding-right: 3%;
+}

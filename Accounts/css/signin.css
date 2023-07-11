@@ -1,0 +1,253 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+:root{
+    --color-gris: #393c41;
+    --bg-fondos: #F5F5F5;
+    --border-radius: 30px;
+}
+
+* {
+    font-family: 'Gotham', sans-serif;
+}
+
+body {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.container{
+    max-width: 300px;
+    width: 360px;
+}
+
+.navbar{
+    height: 54px;
+}
+
+.logo-tesla{
+    width: 167px;
+    height: 25px;
+    margin-left: 0px;
+    margin-top: 0;
+    padding-bottom: 5px;
+}
+
+.world {
+    width: 20px;
+}
+
+.letra-us{
+    color: var(--color-gris);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sign-in{
+    font-size: 35px;
+}
+
+.contenedor-formulario{
+    max-width: 460px;
+}
+
+.formulario{
+    margin-top: 13px;
+}
+
+.form-label{
+    font-size: 14.5px;
+    margin-top: 15px;
+    margin-left: 22px;
+    padding: 0;
+}
+
+.form-inputs{
+    margin-top: 0px;
+    padding: 0;
+    max-height: 40px;
+}
+
+label {
+    font-size: 1.3rem;
+    color: #5c5d61;
+    
+}
+
+input {
+    background-color: var(--bg-fondos) !important;
+    border-color: hsla(228, 3%, 37%, 0) !important;
+    transition: all 1s;      
+}
+
+input:focus {
+    border: 1px solid #8d8d8d52 !important;
+    outline: none;
+    box-shadow: none !important;   
+}
+
+input, button {
+    border-radius: var(--border-radius) !important;
+    height: 40px;
+    font-weight: 500 !important;
+}
+
+.boton-cancel{
+    background-color: var(--bg-fondos) !important;
+    color: #5c5d61;
+    height: 40px;
+}
+
+.forgot {
+    margin-top: 20px;
+}
+
+p a{
+    color: var(--color-gris) !important;
+    font-size: 13px;
+    margin: 0 8px;
+}
+
+.or-div {
+    margin: 20px auto;
+}
+
+.or-p {
+    color: #727272;
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
+.hr-or {
+    display: inline-block;
+    width: 130px;
+    margin: 10px;
+    color: #b3b3b3;
+}
+
+.boton-create {
+    margin-top: 13px;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+.boton-create:active, .boton-create:focus, .boton-create:visited{
+    border: 2px solid #ffffff !important;
+    background-color: #000 !important;
+    color: #ffffff;
+}
+
+.boton-sign, .boton-cancel{
+    font-size: 13px;
+}
+
+.pie-links{
+    margin-top: 293px;
+}
+
+.pie-links a{
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    color:#5c5d61;
+    font-size: 12.5px;
+    font-weight: 500;
+    transition: all 0.6s;
+}
+
+.pie-links a:hover {
+    color:#5c5d61;
+    text-decoration-line: underline;
+    text-decoration-color: #000;
+    text-decoration-thickness: 2px;
+}
+
+.tooltip-img {
+    height: 21px;
+    width: 20px;
+    margin: 0px 1px 2px 0px;
+    padding-bottom: 1px;
+
+/*     fill: #035bff; */
+    color: #393c41;
+    border-right: 2px transparent;
+}
+
+.pops {
+    max-height: 25px !important;
+    max-width: 25px !important;
+    padding: 0 0 1px 0!important;
+    border: 2px solid transparent;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px !important;
+    margin-left: 10px !important;
+    
+}
+
+.popover{
+    max-width: 420px !important;
+    height: 190px;
+    top: 0px !important;
+    left: 0px !important;
+    padding-right: 40px;
+    padding-left: 10px;
+    border: none;
+    -webkit-box-shadow: 1px 8px 15px -1px rgba(127,127,127,0.46); 
+    box-shadow: 1px 8px 15px -1px rgba(127,127,127,0.46);
+}
+
+.popover-body {   
+    font-size: 15px;
+    margin-left: 0px;
+    text-align:start;
+    color: var(--color-gris);
+}
+
+.pops:active, .pops:focus{
+    border: 2px solid #000;    
+}
+
+.support{
+    text-decoration-color: var(--color-gris);
+    font-size: 15px;
+    display: inline-block;
+    margin-left: -1px;
+}
+
+#nocuenta {
+    background-color: var(--bg-fondos);
+}
+
+.info-naranja{
+    width: 20px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.p-info {
+    font-size: 15px;
+    color: var(--color-gris);
+    margin: 0;
+    padding: 19px 12px 15px 8px
+}
+
+.caja-info{
+    margin-top: 2px;
+    margin-bottom: 34px;
+    border-radius: 10px;
+}
+
+@media (max-width: 599px){
+    .desaparece{
+        position: absolute;
+        display: block;
+        width: 100px;
+        top: -37px;
+        left: 42px;
+    }
+    .sign-in{
+        font-size: 29px;
+        margin-left: 3px;
+
+    }
+}

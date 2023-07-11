@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model 3 | Tesla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos_tesla.css">
+    <link rel="stylesheet" href="css/estilo_tesla_2.css">
+    <style>
+        .tcl-speedometer__dial {
+            height: 25px;
+            -webkit-margin-end: 4px;
+            margin-inline-end: 4px;
+            overflow: hidden;
+            position: relative;
+            width: 40px;
+        }
+
+        img,
+        svg {
+            vertical-align: middle;
+        }
+
+        .tcl-speedometer__inner-circle-wrapper {
+            height: 21px;
+            width: 40px;
+            bottom: 4px;
+            inset-inline-start: 0;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .tcl-speedometer__inner-circle {
+            bottom: 0;
+            inset-inline-start: calc(50% - 14px);
+            max-width: 28px;
+            opacity: .2;
+            position: absolute;
+        }
+
+        .tcl-speedometer__needle {
+            bottom: 4px;
+            inset-inline-start: calc(50% - 2px);
+            max-width: 4px;
+            position: absolute;
+            z-index: 2;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+    <div class="imagen-1 ">
+
+        <nav class="navbar navbar-light men  d-flex align-items-center">
+            <div class="container-fluid mt-3">
+
+                <div class="w-100 d-flex justify-content-between">
+                    <div class="ms-1 mt-2">
+                        <!-- <a href="" class="logoLink"><img class="logoT navbar-brand" src="img/logo.png" alt=""></a> -->
+                        <a href="../Home_page/index.html">
+                            <svg class="letras-tesla" fill="#fff" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg%22%3E">
+                                <path d=" M0 .1a9.7 9.7 0 007 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 007-7H0zm238.6
+                                0h-6.8v34.8H263a9.7 9.7 0 006-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8
+                                7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 00-8.7 7h39.9v-21h-31.2v-7h24zm116.2
+                                28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0
+                                13.8h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 14.1h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0
+                                007 7zM308.5 7h26a9.6 9.6 0 007-7h-40a9.6 9.6 0 007 7z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="menu d-flex align-items-center ms-5">
+                        <ul class="d-flex flex-row navbar-nav flex-grow-1">
+                            <li class="nav-item ">
+                                <a class="nav-link text-white  mx-3 ml-0  my-1  hideR" href="../Model_S_Page/Index.html">Model S</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white  mx-3 my-1 hideR" href="../Modelo_3/index_model3.html">Model 3</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white  mx-3 my-1 hideR" href="../Model_X_Page/index.html">Model X</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white  mx-3 my-1 hideR" href="#">Model Y</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white  mx-3 my-1 hideR" href="../Solar_Roof_Page/index.html">Solar Roof</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white  mx-3 my-1 hideR" href="#">Solar Panels</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <ul class="navbar-nav flex-grow-1 pe-3 flex-row">
+                            <li class="nav-item opMenu">
+                                <a class="nav-link text-dark mx-3 my-1 hideR" href="../Tesla_order/index.html">Shop</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link text-dark mx-3 my-1 hideR" href="../Accounts/signin.html">Account</a>
+                            </li>
+                            <li class="nav-item opMenu botonMenu">
+                                <a class="nav-link text-dark mx-3 my-1 " type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">Menu</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset botonCierre" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav flex-grow-1 pe-3 ">
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1 hideS" aria-current="page" href="#">Model S</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1 hideS" href="#">Model 3</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1 hideS" href="#">Model X</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1 hideS" href="#">Model Y</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1 hideS" href="#">Solar Roof</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1 hideS" href="#">Solar Panels</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav flex-grow-1 pe-3">
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Existing inventory</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Used Inventory</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Trade In</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Test Drive</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Cyber Truck</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Roadster</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Semi</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Charging</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Powerwall</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Comercial Energy</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Utilities</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Find US</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Support</a>
+                            </li>
+                            <li class="nav-item opMenu">
+                                <a class="nav-link dark-a mx-2 my-1" href="#">Investor Relations</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <ul class="navbar-nav flex-grow-1 pe-3">
+                                <li class="nav-item opMenu">
+                                    <a class="nav-link text-dark mx-2 my-1 hideS" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item opMenu">
+                                    <a class="nav-link text-dark mx-2 my-1 hideS" href="#">Account</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="d-flex justify-content-center w-100 h-100">
+            <div class="p-5 d-flex flex-column justify-content-between text-center">
+                <div class="caudro-1 mt-4  container">
+                    <h1><b>Model 3</b></h1>
+                </div>
+                <div class="caudro-2 d-flex justify-content-center pb-5  mb-5">
+                    <div>
+                        <div class="d-flex">
+                            <div class="tcl-speedometer__dial me-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 21"
+                                    class="tcl-speedometer__outer-circle" fill="#fff">
+                                    <path
+                                        d="M 39.999999,19.798617 A 19.824417,19.633985 0 0 0 34.877782,6.6213841 L 34.16909,5.8402141 C 26.397915,-1.9017959 13.745528,-1.9531229 5.9107311,5.7258771 A 19.91037,19.719113 0 0 0 1.8907042e-4,19.833252 V 21 H 3.9064221 V 19.833252 H 2.3727481 A 17.490621,17.322608 0 0 1 6.8692771,8.2425621 l 1.181013,1.060755 0.778213,-0.874643 -1.18017,-1.038221 A 17.570675,17.401893 0 0 1 19.4513,2.4230131 v 2.227086 h 1.180592 v -2.273822 a 17.589214,17.420254 0 0 1 11.802124,5.002908 l -1.179328,0.991068 0.778213,0.874643 1.180171,-1.014019 a 17.484722,17.316765 0 0 1 4.461979,11.5447899 h -1.582128 v 1.165911 h 3.907076 z">
+                                    </path>
+                                </svg>
+                                <div class="tcl-speedometer__inner-circle-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 14"
+                                        class="tcl-speedometer__inner-circle" fill="#fff">
+                                        <path
+                                            d="M 28,14 H 0 C 0,6.2697403 6.2698076,0 14.000646,0 21.730623,0 28,6.2697403 28,14 Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 16"
+                                    class="tcl-speedometer__needle" fill="#fff">
+                                    <path style="stroke-width:0.438269"
+                                        d="m 3.9966676,14.119499 c 0,0.01426 0.00178,0.02809 0.00178,0.04236 a 1.8542546,1.8030219 0 0 1 -0.2773389,0.919658 1.8986998,1.8462391 0 0 1 -0.4084515,0.485329 c -0.3133387,0.261032 -0.7013456,0.40192 -1.1324642,0.42569 a 2.188927,2.1284474 0 0 1 -0.2102259,0.0073 c -0.042667,-4.32e-4 -0.084891,-0.0048 -0.1271133,-0.0078 a 2.0587025,2.001821 0 0 1 -0.4920101,-0.09415 2.0102572,1.9547142 0 0 1 -0.48178617,-0.210468 1.7991425,1.7494325 0 0 1 -0.7644577,-0.967201 1.8471433,1.7961071 0 0 1 -0.1035575,-0.61671 c 0,-0.0086 0.00134,-0.01728 0.00178,-0.02593 -4.444e-4,-0.02636 -0.003560001,-0.05143 -0.002660001,-0.07822 0,-0.01599 8.8890101e-4,-0.03155 0.002660001,-0.04711 L 1.4015113,0.54108535 C 1.4330673,0.23294635 1.7112944,-0.00129065 2.0428558,5.3517167e-6 2.3735282,8.7035172e-4 2.6508663,0.23813235 2.6815336,0.54670335 L 3.9975564,14.011024 c 0.00266,0.02247 0.00266,0.04495 0.00222,0.06699 -4.444e-4,0.01426 -0.00266,0.02766 -0.00311,0.04148 z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h2><b>3.1 s</b></h2>
+                        </div>
+
+                        <h6>0-60 mph*</h6>
+                    </div>
+                    <div class="mx-5">
+                        <h2><b>353mi</b></h2>
+                        <h6>Range (EPA est.)</h6>
+                    </div>
+                    <div class="mx-5">
+                        <h2><b>AWD</b></h2>
+                        <h6>Dual Motor</h6>
+                    </div>
+                    <a href="../Tesla_order/Modelo_3.html"><button type="button" class="btn btn-outline-secondary btn-lg p-2 boton-1 my-2">ORDER NOW</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="  d-flex   row">
+        <div class="col-md-12 col-lg-4">
+            <div class="container ms-4">
+                <div class="d-flex flex-column">
+                    <div>
+                        <header class="mt-5 mb-4">
+                            <h2 id="estilo-2">Safety</h2>
+                            <h2 id="estilo-1">Built for Safety</h2>
+                        </header>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <p id="estilo-2">Safety is the most important part of the overall Model 3 design. The metal
+                            structure is a combination of aluminum and steel, for maximum strength in every area. In a
+                            roof-crush test, Model 3 resisted four times its own mass, even with an all-glass roof:
+                            that's the same weight as two full-grown African elephants.</p>
+                        <div class="mb-2 ">
+                            <img src="img/Captura.PNG" alt="">
+                        </div>
+                        <div class="d-flex ">
+                            <div>
+                                <div class="d-flex text-center pt-2 ">
+                                    <button
+                                        class="btn btn-primary btn-lg boton-circular d-flex justify-content-center align-items-center">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                    <h6 id="estilo-2" class="m-0 my-2 ms-2">LEARN MORE</h6>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <button type="button"
+                                        class="btn btn-outline-secondary btn-lg  boton-2 mt-2 ms-3">ORDER
+                                        NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" col-md-12 col-lg-8 ">
+            <img class="img-2" src="img/model_3_safety_hero (1).png" alt="">
+        </div>
+    </div>
+
+
+    <div class="d-flex w-100">
+        <div class="d-flex flex-column ">
+            <div class="d-flex justify-content-center  ">
+                <img id="img-33" src="img/Captura4.PNG" alt="">
+                <div class="contenido_imagen_3 d-flex  flex-column  ">
+                    <div class="caudro-1 mt-5 pt-5 container text-center">
+
+                    </div>
+                    <div class=" d-flex justify-content-center pb-4 pt-5 mt-3">
+                        <div class="contenido_3 ">
+                            <div class="d-flex ms-5 ps-5">
+                                <div class="tcl-speedometer__dial me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 21"
+                                        class="tcl-speedometer__outer-circle" fill="#fff">
+                                        <path
+                                            d="M 39.999999,19.798617 A 19.824417,19.633985 0 0 0 34.877782,6.6213841 L 34.16909,5.8402141 C 26.397915,-1.9017959 13.745528,-1.9531229 5.9107311,5.7258771 A 19.91037,19.719113 0 0 0 1.8907042e-4,19.833252 V 21 H 3.9064221 V 19.833252 H 2.3727481 A 17.490621,17.322608 0 0 1 6.8692771,8.2425621 l 1.181013,1.060755 0.778213,-0.874643 -1.18017,-1.038221 A 17.570675,17.401893 0 0 1 19.4513,2.4230131 v 2.227086 h 1.180592 v -2.273822 a 17.589214,17.420254 0 0 1 11.802124,5.002908 l -1.179328,0.991068 0.778213,0.874643 1.180171,-1.014019 a 17.484722,17.316765 0 0 1 4.461979,11.5447899 h -1.582128 v 1.165911 h 3.907076 z">
+                                        </path>
+                                    </svg>
+                                    <div class="tcl-speedometer__inner-circle-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 14"
+                                            class="tcl-speedometer__inner-circle" fill="#fff">
+                                            <path
+                                                d="M 28,14 H 0 C 0,6.2697403 6.2698076,0 14.000646,0 21.730623,0 28,6.2697403 28,14 Z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 16"
+                                        class="tcl-speedometer__needle" fill="#fff">
+                                        <path style="stroke-width:0.438269"
+                                            d="m 3.9966676,14.119499 c 0,0.01426 0.00178,0.02809 0.00178,0.04236 a 1.8542546,1.8030219 0 0 1 -0.2773389,0.919658 1.8986998,1.8462391 0 0 1 -0.4084515,0.485329 c -0.3133387,0.261032 -0.7013456,0.40192 -1.1324642,0.42569 a 2.188927,2.1284474 0 0 1 -0.2102259,0.0073 c -0.042667,-4.32e-4 -0.084891,-0.0048 -0.1271133,-0.0078 a 2.0587025,2.001821 0 0 1 -0.4920101,-0.09415 2.0102572,1.9547142 0 0 1 -0.48178617,-0.210468 1.7991425,1.7494325 0 0 1 -0.7644577,-0.967201 1.8471433,1.7961071 0 0 1 -0.1035575,-0.61671 c 0,-0.0086 0.00134,-0.01728 0.00178,-0.02593 -4.444e-4,-0.02636 -0.003560001,-0.05143 -0.002660001,-0.07822 0,-0.01599 8.8890101e-4,-0.03155 0.002660001,-0.04711 L 1.4015113,0.54108535 C 1.4330673,0.23294635 1.7112944,-0.00129065 2.0428558,5.3517167e-6 2.3735282,8.7035172e-4 2.6508663,0.23813235 2.6815336,0.54670335 L 3.9975564,14.011024 c 0.00266,0.02247 0.00266,0.04495 0.00222,0.06699 -4.444e-4,0.01426 -0.00266,0.02766 -0.00311,0.04148 z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h2><b>3.1 s</b></h2>
+                            </div>
+
+                            <h6 id="estilo-3">Quickest acceleration—from zero to 60 mph* in as little as 3.1 seconds
+                            </h6>
+                        </div>
+                        <div class="mx-5 contenido_3">
+                            <h2><b>162 mph</b></h2>
+                            <h6 id="estilo-3">Improved handling and aerodynamics allow for a top speed of 162 mph</h6>
+                        </div>
+                        <div class="mx-2 contenido_3">
+                            <h2><b>AWD</b></h2>
+                            <h6 id="estilo-3">Dual Motor All-Wheel Drive instantly controls traction and torque, in all
+                                weather conditions</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="container seccion-3 d-flex justify-content-center pt-5">
+                    <div class="d-flex flex-column">
+                        <p class="mb-0" id="estilo-2">Performace</p>
+                        <h2 id="estilo-1">Quickest Acceleration</h2>
+                        <div class="d-flex">
+                            <button
+                                class="btn btn-primary btn-lg boton-circular mt-2 d-flex justify-content-center align-items-center">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                            <h6 id="estilo-2" class="m-0 mt-3 ms-2">LEARN MORE</h6>
+                            <button type="button" class="btn btn-outline-secondary btn-lg  boton-2 mt-2 ms-3">ORDER
+                                NOW</button>
+                        </div>
+                    </div>
+                    <div class=" d-flex w-50 ms-5">
+                        <p id="estilo-2">Model 3 comes with the option of dual motor all-wheel drive, 20” Überturbine
+                            Wheels and Performance Brakes and lowered suspension for total control, in all weather
+                            conditions. And a carbon fiber spoiler improves stability at high speeds, all allowing Model
+                            3 to accelerate from 0-60 mph* in as little as 3.1 seconds.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/codigo_tesla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+body{
+   margin: 0;
+}
+.contenedor_general{
+    margin-top: 50px;
+}
+.cont_navbar{
+    height: 50px;
+}
+.size-logo img{
+    width: 170px;
+    padding: 0 0 0 48px;
+}
+
+.boton_idioma{
+    padding: 0 8px 0 0;
+    background: none;
+    border: none;
+}
+.modelo p{
+    color: #5c5e62;
+}   
+
+.mensaje{
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 6px 16px 3px 16px; 
+    margin-top: 2px;
+    font-size: 10px;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.mensaje i{
+color: rgb(87, 63, 224);
+align-self: start;
+ 
+}
+.mensaje p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5c5e62;
+    
+    }
+.pintura img{
+    max-width: 40px;
+    min-width: 40px;
+    margin: 5px 6px 5px 6px;
+}
+
+.cont_botones{
+    background:#f4f4f4;
+    border-radius: 100px;
+    margin: 0;  
+    width: 100%;
+   
+}
+.botones button{
+    height: 32px;
+    margin: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 100px;
+    border-color: #f4f4f4;
+    background:#f4f4f4;
+    width: 130px;
+  
+}
+.botones button:hover{
+    border-color:#a8a8a8;
+}
+.botones button:focus{
+    background:#fff;
+    
+}
+
+.medida{
+    max-width: fit-content;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.cont_medicion div div h5{
+    color: #000;
+    font-size: 24px;
+}
+.cont_medicion div div p{
+    color: #5c5e62;
+    font-size: 12px;
+    text-align: center;
+}
+.cont_motor p{
+    margin-top: 7px;
+    color: #5c5e62;
+    font-size: 16px;
+    line-height: 18px;
+    
+    
+}
+.cont_motor button{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 300px;
+    height: 55px;
+    border-color: #e2e1e1;
+    background:#ffff;
+    justify-content: space-between;
+    
+}
+.cont_motor button span{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+ 
+}
+.cont_motor button span p{
+    color: #000;
+    justify-content: space-between;
+    
+}
+
+.cont_motor button:focus{
+    border-color: #4180f3;
+}   
+
+.mensaje2{
+    align-content: center;
+    align-items: center;
+    margin: 3px;
+    color: #5c5e62;
+    padding: 6px 16px 3px 16px;
+    font-size: 13px;
+}
+.mensaje3{
+    padding: 50px 0 0 0 ;
+    
+}
+.mensaje3 h2{
+    margin-top: 15px;
+    text-align: center;
+    justify-content: space-between;
+}
+.mensaje3 h6{
+    text-align: center;
+}
+.mensaje3 li{
+    color: #5c5e62;
+    list-style-type: disc;
+}
+.listas{
+    padding: 50px 0 0 0 ;
+}
+.listas h2{
+    padding: 50px 0 0 0 ;
+    margin-top: 7px;
+    text-align: center;
+}
+.listas h6{
+    text-align: center;
+}
+.listas li{
+    list-style-type: disc;
+    color: #5c5e62;
+}
+.listas p{
+    list-style-type: disc;
+    color: #5c5e62;
+    font-size: 12px;
+}
+.ordenar button{
+        margin-top: 20px;
+        height: 45px;
+      
+        font-weight: 500;
+        text-align: center;
+        border-radius: 100px;
+        background:#3e6ae1;
+        border-color: #3e6ae1;;
+        width: 300px;
+        
+}
+.ordenar button span{
+    color: #fff;
+    font-size: 15px;
+}
+
+

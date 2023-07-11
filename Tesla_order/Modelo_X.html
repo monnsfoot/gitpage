@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bt/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>TESLA</title>
+</head>
+
+<body>
+
+    <nav class="navbar  container-fluid ">
+        <div class="container-fluid fixed-top bg-white cont_navbar " >
+            <a class=" size-logo d-flex align-items-start align-content-center" href="../Home_page/index.html">
+                <img src="img/logo-tesla.svg" class="" alt="">
+            </a>
+
+    
+            <div class=" d-flex">
+                <button type="button" class=" align-content-center tds-site-nav-item tds-text--500 tds-locale-selector-trigger boton_idioma">
+                    <i class="fas fa-globe 2x"></i>
+                    </svg><span class="tds-site-nav-item-text">US</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid contenedor_general ">
+
+        <div class="row">
+
+            <div class="col-9 " id="contenedor_carousel">
+                <!--  carousel  -->
+
+                
+            </div>
+
+
+            <div class="col-3 ">
+
+                <div class="mensaje  ">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-info-circle 2x"></i>
+                        <p>$750 Clean Fuel Reward is now available for California residents</p>
+                    </div>
+                </div>
+
+                <div class="modelo d-flex align-items-center flex-column mt-5">
+                    <!-- modelo-->
+                    <h1> Model X</h1>
+                    <div id="fecha_entrega">
+                        
+                    </div>
+                    
+                </div>
+                <div class="cont_botones d-flex align-items-center justify-content-center">
+                    <div class="d-flex flex-row botones">
+                        <!-- botones-->
+                        <button type="button" onclick="info_motor0()">Purchase Price</button>
+                        <button type="button" onclick="info_motor1()">Potential savings*</button>
+                    </div>
+                </div>
+                <div class="container mt-5 cont_medicion">
+                    <div class="row">
+                        <div class="col-4 d-flex flex-row">
+                            <!-- 405-->
+                            <h5 id="num_millas"></h5>
+                            <p> mi</p>
+                        </div>
+
+                        <div class="col-4 d-flex flex-row">
+                            <!-- 155-->
+                            <h5 id="num_mph"></h5>
+                            <p> mph</p>
+                        </div>
+
+                        <div class="col-4 d-flex flex-row">
+                            <!-- 3,1-->
+                            <h5 id="num_sec"></h5>
+                            <p> sec</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p>Range (est.)</p>
+                        </div>
+
+                        <div class="col-4 ">
+                            <p>Top Speed</p>
+                        </div>
+
+                        <div class="col-4 ">
+                            <p>0-60 mph</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class=" mt-4 d-flex flex-column align-items-center row wrap cont_motor">
+                    <!-- traccion-->
+                    <p> <strong>Dual Motor All-Wheel Drive</strong></p>
+                    <button onclick="info_vel_0()">
+                        <span class="d-flex flex-row">
+                            <p> Long range </p>
+                            <p id="id_range"> </p>
+                        </span>
+
+                    </button>
+                    <!-- de largo alcance-->
+                    <p><strong>Tri Motor All-Wheel Drive</strong></p>
+                    <button onclick="info_vel_1()">
+                        <span class="d-flex flex-row">
+                            <p> Plaid </p>
+                            <p id="id_plaid"> </p>
+                        </span>
+
+                    </button>
+                    <!-- tartan-->
+                </div>
+                <div class="mensaje2"   id="mensaje_2">
+                    
+                </div>
+
+                <div class="mensaje3" id='idmensaje3'>
+                    <!-- descripcion-->
+
+                </div>
+
+                <div class="  d-flex  justify-content-center align-content-center mt-5">
+                    <h4>Paint </h4>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center pintura">
+
+                    <img src="img/Paint_White.png" onclick="color_carro('Model_X_blanco')" alt="">
+
+                    <img src="img/Paint_Black.png" onclick="color_carro('Model_X_negro')" alt="">
+
+                    <img src="img/Paint_gray.png" onclick="color_carro('Model_X_gris')" alt="">
+
+                    <img src="img/Paint_Blue.png" onclick="color_carro('Model_X_azul')" alt="">
+
+                    <img src="img/Paint_Red.png" onclick="color_carro('Model_X_rojo')" alt="">
+                </div>
+                <!--Precio Color-->
+                <div class="d-flex flex-row justify-content-center  align-items-center mt-5" id="precio_color">
+                  
+                </div>
+
+                <!-- -->
+                <div class=" listas">
+                    <h2>Full Self-Driving Capability</h2>
+                    <h6>$10,000</h6>
+
+                    <ol>
+                        <li> Navigate on Autopilot </li>
+                        <li>Auto Lane Change</li>
+                        <li>Autopark</li>
+                        <li>Summon</li>
+                        <li>Full Self-Driving Computer </li>
+                        <li>Traffic Light and Stop Sign Control</li>
+                    </ol>
+
+                    <h2>Coming Soon</h2>
+                    <lo>
+                        <li>Autosteer on city streets</li>
+                    </lo> 
+                    <br>
+                    <p>The currently enabled features require active driver supervision and do not make 
+                        the vehicle autonomous. The activation and use of these features are dependent
+                         on achieving reliability far in excess of human drivers as demonstrated by billions
+                          of miles of experience, as well as regulatory approval, which may take longer in 
+                          some jurisdictions. As these self-driving features evolve, your car will be 
+                          continuously upgraded through over-the-air software updates.
+                          <br>
+                          <a href="img/autopark.mp4">
+                            watch video
+                        </a>
+                    </p>
+                    
+                    <div class="d-flex  flex-column justify-content-center  align-items-center mt-5 mb-5 ordenar">
+                        <h2>Order Your Model X</h2>
+                        <a href="../Accounts/signin.html">
+                        <button type="button"><span>Continue to payment</span></button>
+                        </a>
+                    </div>
+       
+                </div>
+
+
+            
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="js/bt/bootstrap.min.js"></script>
+    <script src="js/made_modelo_X.js"></script>
+</body>
+
+</html>

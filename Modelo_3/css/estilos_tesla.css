@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/*.fondo {
+    background-image: url(../img/Captura3.PNG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+*/
+* {
+    font-family: 'Montserrat', sans-serif !important;
+    
+}
+
+#estilo-1 {
+    color: #000 !important;
+}
+
+h6 {
+    color: #fff !important;
+}
+
+h1 {
+    font-size: 2.5em !important;
+    color: #fff !important;
+}
+h2 {
+    font-size: 1.5em !important;
+    color: #fff !important;
+}
+
+#estilo-2 {
+    color: #595959 !important;
+    font-size: 0.9em;
+}
+
+#estilo-3 {
+    color: #fff !important;
+    font-size: 0.8em !important;
+    
+}
+
+.imagen-1 {
+    background-color: blue;
+    background-image: url(../img/Captura3.png);
+    width: 100%;
+    height: 101vh !important;
+    background-size: cover;
+    background-attachment: unset;
+    text-align: center;
+}
+
+.img-2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.imagen-3 {
+    background-color: blue;
+    background-image: url(../img/Captura4.PNG);
+    
+    background-size: cover;
+    background-attachment: unset;
+    height: 70vh;
+    
+}
+
+.cuadro-1 {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+}
+
+.boton-1 {
+    border: solid 3px #fff;
+    border-radius: 50px;
+    width: 160px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+.boton-2 {
+    border: solid 4px rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 145px;
+    height: 40px;
+    color: #000000;
+    font-size: 0.8em;
+}
+
+.boton-2:hover {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    border: #000000;
+}
+
+.boton-1:hover {
+    color: #000000 !important;
+    background-color: #fff !important;
+    border: #fff;
+}
+
+.prueba {
+    width: 50vh;
+    height: 50vh;
+    background-color: turquoise;
+}
+
+.boton-circular {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border: solid 3px #000;
+    color: #000 !important;
+}
+
+.boton-circular:hover {
+    background-color: #000000;
+    border: solid 3px #000;
+    color: #fff !important;
+}
+
+.seccion-3 {
+    height: 30vh;
+    width: 100% !important;
+}
+
+.contenido_imagen_3 {
+    position:  absolute;
+    height: 65% !important;
+    justify-content: space-between;
+    
+
+}
+
+#img-33 {
+    width: 100% !important;
+}
+
+.contenido_3 {
+    max-width: 300px !important;
+    text-align: center;
+
+}
+
+#span-1 {
+    font-size: 2em;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+.fas {
+    font-size: 30px;
+    
+}
+
+.letras-tesla{
+    width: 40% !important;
+}
